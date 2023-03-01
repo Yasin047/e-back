@@ -116,7 +116,7 @@ const userForgotPasswordController = async (req, res) => {
       service: "gmail",
       auth: {
         user: "yasinmahmud0047@gmail.com",
-        pass: "xiswpidntubseglv",
+        pass: "ypvvzbhwrzajatcp",
       },
     });
 
