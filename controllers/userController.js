@@ -112,7 +112,10 @@ const userForgotPasswordController = async (req, res) => {
 
     //Send Email
     const link =
-      "http://" + req.hostname + ":3000/resetpassword?token=" + token;
+      "http://" +
+      req.hostname +
+      ":e-front.vercel.app/resetpassword?token=" +
+      token;
 
     let transporter = nodemailer.createTransport({
       service: "gmail",
